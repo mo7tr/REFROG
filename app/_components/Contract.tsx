@@ -46,7 +46,7 @@ export const Contract = () => {
         target="_blank"
         className={cn(
           buttonVariants({ variant: "outline" }),
-          "font-extrabold hover:animate-bounce",
+          "animate-bounce font-extrabold",
         )}
       >
         BUY NOW

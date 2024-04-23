@@ -11,7 +11,7 @@ export const Footer = () => {
         className="h-auto w-full"
         priority={true}
       />
-      <p className="w-full bg-primary py-1 text-center text-xs text-primary-foreground">
+      <p className="w-full bg-primary py-1 text-center text-xs text-background">
         Copyright © 2024 – Resistance Frog - All rights reserved.
       </p>
     </footer>

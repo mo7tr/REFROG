@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="flex flex-col bg-gradient-to-r from-custom-green">
       <Header />
-      <div className="flex flex-col ">
+      <div className="flex flex-col px-2">
         <About />
         <CarouselComponent />
         <Tokenomics />

@@ -24,7 +24,7 @@ export function CarouselComponent() {
 
   return (
     <Section className="py-10">
-      <Carousel className="w-full max-w-md ">
+      <Carousel className="w-full max-w-lg ">
         <CarouselContent>
           {imgInfos.map((info, index) => (
             <CarouselItem key={index}>

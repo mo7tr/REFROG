@@ -9,16 +9,16 @@ export const About = () => {
       <Image
         src="/resistanceFrogLogoNoBg.png"
         alt="Resistance Frog Logo "
-        width={300}
-        height={200}
+        width={512}
+        height={512}
         layout="responsive"
         priority={true}
-        className="mx-auto  max-w-2xl"
+        className="mx-auto max-w-md"
       />
       <div className="flex flex-col flex-wrap justify-center gap-4 md:flex-row">
         <Card className="max-w-96 border border-none bg-primary">
           <CardHeader>
-            <CardContent className="px-2 text-justify text-primary-foreground">
+            <CardContent className="px-0 text-justify text-background">
               Resistance Frog ($REFROG) is more than just another memecoin. It
               represents a community movement focused on spreading freedom,
               resistance, and joy through the iconic frog symbol. Known
@@ -27,18 +27,18 @@ export const About = () => {
               TON network.
             </CardContent>
           </CardHeader>
-          <CardContent className="text-primary-foreground">
+          <CardContent className="text-background">
             <p>Frogs Matter!</p>
           </CardContent>
         </Card>
 
         <Card className="max-w-96 border border-none bg-primary">
           <CardHeader>
-            <CardTitle className=" text-gradient-to-r pb-3 text-center text-primary-foreground">
+            <CardTitle className=" text-gradient-to-r pb-3 text-center text-background">
               Why choose $REFROG ?
             </CardTitle>
           </CardHeader>
-          <CardContent className="text-justify text-primary-foreground">
+          <CardContent className="text-justify text-background">
             We believe in power of frog symbol to bring people together and
             create strong connections. $REFROG gives you an exciting chance to
             be part of something special, helping to build a movement of freedom
@@ -48,7 +48,7 @@ export const About = () => {
 
         <Card className="max-w-96 border border-none bg-primary ">
           <CardHeader>
-            <CardTitle className="text-primary-foreground">CA</CardTitle>
+            <CardTitle className="text-background">CA</CardTitle>
           </CardHeader>
           <CardContent>
             <Contract />

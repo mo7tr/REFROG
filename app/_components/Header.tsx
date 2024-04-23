@@ -13,7 +13,7 @@ export const Header = () => {
       <Section className="flex items-center ">
         <div className="flex items-center gap-2">
           <AvatarComponent />
-          <h1 className="text-2xl font-bold text-primary-foreground md:text-4xl">
+          <h1 className="text-2xl font-bold text-background md:text-4xl">
             $REFROG
           </h1>
         </div>
