@@ -9,7 +9,7 @@ import { TwitterIcon } from "./icons/TwitterIcon";
 
 export const Header = () => {
   return (
-    <header className=" sticky top-0 z-10 bg-primary py-4">
+    <header className=" sticky top-0 z-10 bg-primary px-2 py-4">
       <Section className="flex items-center ">
         <div className="flex items-center gap-2">
           <AvatarComponent />

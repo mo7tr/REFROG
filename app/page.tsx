@@ -6,9 +6,9 @@ import { Tokenomics } from "./_components/Tokenomics";
 
 export default function Home() {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col bg-gradient-to-r from-custom-green">
       <Header />
-      <div className=" flex flex-col bg-gradient-to-r  from-custom-green">
+      <div className="flex flex-col ">
         <About />
         <CarouselComponent />
         <Tokenomics />

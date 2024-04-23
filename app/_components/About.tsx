@@ -7,8 +7,8 @@ export const About = () => {
   return (
     <Section className="flex flex-col items-center">
       <Image
-        src="/resistanceFrogLogo.png"
-        alt="resistanceFrogLogo"
+        src="/resistanceFrogLogoNoBg.png"
+        alt="Resistance Frog Logo "
         width={300}
         height={200}
         layout="responsive"
