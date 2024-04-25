@@ -4,9 +4,9 @@ import { Section } from "./Section";
 
 export const Tokenomics = () => {
   return (
-    <Section className="flex flex-col items-center gap-4 pb-10 pt-3 md:flex-row">
-      <div className="flex flex-col gap-4 lg:flex-row">
-        <Card className="border-1 h-48 w-48 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
+    <Section className="flex flex-col items-center gap-4 pb-10 pt-3 md:grow md:flex-row">
+      <div className="flex grow  flex-col items-center gap-4 lg:flex-row lg:justify-around">
+        <Card className="border-1 size-56 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
           <CardHeader>
             <CardTitle className="text-gradient-to-r pb-3 text-center text-background">
               Total Supply
@@ -21,7 +21,7 @@ export const Tokenomics = () => {
           </CardContent>
         </Card>
 
-        <Card className="border-1 h-48 w-48 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
+        <Card className="border-1 size-56 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
           <CardHeader>
             <CardTitle className=" text-gradient-to-r pb-3 text-center text-background">
               LP Burned
@@ -36,8 +36,8 @@ export const Tokenomics = () => {
         </Card>
       </div>
 
-      <div className="flex flex-col gap-4 lg:flex-row">
-        <Card className="border-1 h-48 w-48 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
+      <div className="flex grow flex-col items-center gap-4 lg:flex-row lg:justify-around">
+        <Card className="border-1 size-56 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
           <CardHeader>
             <CardTitle className=" text-gradient-to-r pb-3 text-center text-background">
               Taxes
@@ -50,9 +50,9 @@ export const Tokenomics = () => {
             </div>
           </CardContent>
         </Card>{" "}
-        <Card className="border-1 h-48 w-48 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
+        <Card className="border-1 size-56 border  border-primary bg-gradient-to-r from-primary to-primary/90 shadow-xl hover:-translate-y-3">
           <CardHeader>
-            <CardTitle className=" text-gradient-to-r pb-3 text-center text-background">
+            <CardTitle className="text-gradient-to-r pb-3 text-center text-background">
               Contract
             </CardTitle>
           </CardHeader>

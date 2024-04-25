@@ -20,10 +20,10 @@ export const Contract = () => {
   };
 
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col justify-between space-y-6">
       <Button
         variant="outline"
-        className="whitespace-normal "
+        className="whitespace-normal"
         onClick={copyToClipboard}
       >
         <ClipboardCopy className="mr-2" />

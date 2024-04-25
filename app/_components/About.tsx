@@ -13,10 +13,10 @@ export const About = () => {
         height={512}
         layout="responsive"
         priority={true}
-        className="mx-auto max-w-md"
+        className="max-w-lg"
       />
-      <div className="flex flex-col flex-wrap justify-center gap-4 md:flex-row">
-        <Card className="max-w-96 border border-none bg-primary">
+      <div className="flex flex-col justify-center gap-4 md:flex-row md:flex-wrap">
+        <Card className=" max-w-96 border border-none bg-primary">
           <CardHeader>
             <CardContent className="px-0 text-justify text-background">
               Resistance Frog ($REFROG) is more than just another memecoin. It
@@ -46,11 +46,11 @@ export const About = () => {
           </CardContent>
         </Card>
 
-        <Card className="max-w-96 border border-none bg-primary ">
+        <Card className="flex max-w-96 flex-col border border-none bg-primary">
           <CardHeader>
             <CardTitle className="text-background">CA</CardTitle>
           </CardHeader>
-          <CardContent>
+          <CardContent className="flex grow ">
             <Contract />
           </CardContent>
         </Card>
